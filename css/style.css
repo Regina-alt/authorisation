@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); 
+/* Подключаю шрифт */
+
+h1{
+    font-size: 30px;                          /* Размер шрифта 30px */
+    font-family: 'Montserrat', sans-serif;    /* Указываю шрифт */
+}
+
+section{
+    padding: 10em;                            /* Внутренний отступ со всех сторон */
+    text-align: center;                       /* Текст по центру */
+    margin-right: 10%;                        /* Внешний отстут в процентах, для адаптивности */
+    margin-left: 10%;                         /* Внешний отстут в процентах, для адаптивности */
+    
+}
+
+
+body{
+    background: linear-gradient(to right, blue, pink); /* Заднний фон устанавливаю в виде градиента */
+    
+}
+
+.container{
+    color: #333;                         /* Цвет шрифта черный */
+    background: #ecf0f3;                 /* Цвет фона блока белый */
+    font-size: 15px;                       /* Размер шрифта 15px */
+    height: 60%;                           /* Высота в процентах для адаптивности */
+    padding: 40px;                         /* Внутренний отступ со всех сторон */
+    letter-spacing: 1px;                   /* Размер между бувами */
+    border: none;                          /* Обводки нет */
+    border-radius: 50px;                   /* Делаю углы круглыми */
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px #fff; /* Добавляю тень */
+    display: block;                        /* Вид блок */
+    transition: all 0.3s ease 0s;          /* Для плавной анимации расширения */
+}
+
+a{
+    color: blue;                       /* Цвет ссылки синий */
+    text-decoration: none;               /* Нет подчеркивания */
+}
+
+a:hover{
+    color: violet;                    /* Цвет ссылки при наведении розовый */
+    text-decoration: none;               /* Нет подчеркивания */
+}
+
+
+.block1{
+    background: white;                /* Цвет фона блока белый */
+    width: 80%;                         /* Ширина 80% */
+    display: block;                     /* Вид блок */
+    margin-left: auto;                  /* Внешний отстут auto */
+    margin-right: auto;                 /* Внешний отстут auto */
+    padding: 20px;                      /* Внутренний отступ со всех сторон */
+    position: relative;                 /* Относительное позиционировани  */
+    top: 10px;                          /* Отступ сверху */
+    border: none;                       /* Обводки нет */
+    border-radius: 50px;                /* Делаю углы круглыми  */
+    font-family: 'Montserrat', sans-serif;     /* Указываю шрифт */
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;     /* Указываю шрифт */
+}
